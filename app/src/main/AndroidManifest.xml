@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.amine.ta3alom" >
+
+    <uses-library android:name="com.google.android.maps" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".LifeApp"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SingUp" />
+        <activity android:name=".Msg" />
+        <activity android:name=".Chatliste" />
+        <activity android:name=".Personne" />
+        <activity android:name=".Users" />
+        <activity android:name=".Bar" />
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".Profil"/>
+        <activity android:name=".TestNiveau"/>
+        <activity android:name=".TestNiveauAr"/>
+    </application>
+
+</manifest>
